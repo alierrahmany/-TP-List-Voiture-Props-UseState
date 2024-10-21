@@ -1,0 +1,42 @@
+/* Center the cards */
+
+  
+  /* Card styling */
+  .voiture-card {
+    background-color: #fff;   /* White background for the card */
+    border: 1px solid #ddd;   /* Light gray border */
+    border-radius: 8px;       /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 300px;             /* Fixed width for the card */
+    padding: 15px;            /* Padding inside the card */
+    text-align: center;       /* Center text */
+    transition: transform 0.2s ease; /* Smooth hover animation */
+  }
+  
+  /* Image styling */
+  .voiture-img {
+    width: 100%;              /* Make image fit the card width */
+    height: 200px;            /* Set a fixed height */
+    object-fit: cover;        /* Ensure the image covers the space without distortion */
+    border-radius: 5px;       /* Rounded corners for the image */
+  }
+  
+  /* Title and text styling */
+  .voiture-title {
+    font-size: 1.5rem;
+    margin: 10px 0;           /* Margin around the title */
+    color: #333;              /* Darker text color */
+  }
+  
+  .voiture-category, .voiture-price {
+    font-size: 1rem;
+    color: #666;              /* Lighter text color for category and price */
+    margin-bottom: 5px;
+  }
+  
+  /* Hover effect for the card */
+  .voiture-card:hover {
+    transform: scale(1.05);   /* Slight zoom effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Larger shadow on hover */
+  }
+  
